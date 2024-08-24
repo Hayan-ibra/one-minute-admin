@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shops.ShopProfileUpdate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_main"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Create Your Store Profile"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="175dp"
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+
+            >
+            <ImageView
+                android:id="@+id/ShopProfileUpdate_image_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_add_24"
+                android:scaleType="centerCrop"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ShopProfileUpdate_edittext_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/baseline_drive_file_rename_outline_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/blue_main"
+                    android:hint="Shop name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ShopProfileUpdate_edittext_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/baseline_location_on_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/blue_main"
+                    android:hint="Location"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLines="1"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ShopProfileUpdate_edittext_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/baseline_phone_enabled_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/blue_main"
+                    android:hint="Phone number"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ShopProfileUpdate_descrition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/baseline_description_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/blue_main"
+                    android:hint="description"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLines="3"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:background="@drawable/sh01"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work Time: from "
+                android:textColor="@color/blue_main"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/ShopProfileUpdate_time_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click here"
+                android:textColor="#E60DC887"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" to "
+                android:textColor="@color/blue_main"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ShopProfileUpdate_time_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click here"
+                android:textColor="#E60DC887"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Please select your store type :"
+            android:textColor="@color/blue_main"
+            android:layout_margin="15dp"
+            />
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_ShopProfileUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleSelection="false"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_clothing_ShopProfileUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clothing"
+                android:checkable="true"
+                app:checkedIconVisible="false"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_accessories_ShopProfileUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accessories"
+                android:checkable="true"
+                app:checkedIconVisible="false"
+                />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_footwear_ShopProfileUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foot Wears"
+                android:checkable="true"
+                app:checkedIconVisible="false"
+                />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_seasonal_ShopProfileUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seasonal and speciality"
+                android:checkable="true"
+                app:checkedIconVisible="false"
+                />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_lifestyle_ShopProfileUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Life style"
+                android:checkable="true"
+                app:checkedIconVisible="false"
+                />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_technology_ShopProfileUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Technology"
+                android:checkable="true"
+                app:checkedIconVisible="false"
+                />
+
+        </com.google.android.material.chip.ChipGroup>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ShopProfileUpdate_button_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update "
+            android:layout_gravity="center_horizontal"
+            app:cornerRadius="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

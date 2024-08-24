@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">OM Admin</string>
+
+    <string-array name="spinner_types">
+        <item>select type</item>
+        <item>Hotel owner</item>
+        <item>Restaurant owner</item>
+        <item>Shop owner</item>
+        <item>Tourist guider</item>
+    </string-array>
+
+
+    <string-array name="food_types">
+        <item>select type</item>Sa
+        <item>Dessert</item>
+        <item>Burger</item>
+        <item>Western foods</item>
+        <item>Sea food</item>
+        <item>Salad</item>
+        <item>Sandwich</item>
+        <item>Soup</item>
+        <item>Pizza</item>
+        <item>Pasta</item>
+        <item>Beverage</item>
+        <item>Fast food</item>
+        <item>Meals</item>
+        <item>Cocktails</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="spinner_cities">
+        <item>Select City</item>
+        <item>Lattakia</item>
+        <item>Damascus</item>
+        <item>Aleppo</item>
+        <item>Homs</item>
+        <item>Hama</item>
+        <item>Tartus</item>
+        <item>Al raqqa</item>
+        <item>Deir el zour</item>
+        <item>Daraa</item>
+        <item>Al sweida</item>
+        <item>Idlib</item>
+        <item>Al hasaka</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

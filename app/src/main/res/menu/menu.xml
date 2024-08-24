@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/menu_restaurant_profile"
+            android:title="Restaurant profile"
+            android:icon="@drawable/baseline_restaurant_menu_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_restaurant_add"
+            android:title="Add foods"
+            android:icon="@drawable/baseline_add_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_restaurant_orders"
+            android:title="Chcek orders"
+            android:icon="@drawable/baseline_fastfood_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_restaurant_history"
+            android:title="Points history"
+            android:icon="@drawable/baseline_fastfood_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_restaurant_edit_profile"
+            android:title="Edit profile"
+            android:icon="@drawable/baseline_logout_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_restaurant_signout"
+            android:title="Sign out"
+            android:icon="@drawable/baseline_logout_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+
+
+
+    </group>
+</menu>

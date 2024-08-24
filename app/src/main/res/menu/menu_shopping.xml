@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+    <item
+        android:id="@+id/menu_shopping_profile_creation"
+        android:title="Create Profile"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:iconTint="@color/blue_main"
+        app:showAsAction="never"
+        />
+        <item
+            android:id="@+id/menu_shopping_profile_update"
+            android:title="Update Profile"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_shopping_profile_add_item"
+            android:title="Add item"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_shopping_profile_history"
+            android:title="History"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menu_shopping_profile_signout"
+            android:title="Sign out"
+            android:icon="@drawable/baseline_shopping_cart_24"
+            android:iconTint="@color/blue_main"
+            app:showAsAction="never"
+            />
+    </group>
+
+</menu>

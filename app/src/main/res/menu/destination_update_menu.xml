@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dest_update"
+        android:title="Update destination"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_drive_file_rename_outline_24"
+        android:iconTint="@color/white"
+        />
+
+</menu>

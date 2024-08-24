@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/action_update_state_room"
+    android:title="update reservation state"
+    />
+    <item
+        android:id="@+id/action_update_room"
+        android:title="Update room price" />
+
+    <item
+        android:id="@+id/action_show_images_room"
+        android:title="Add/Show Images" />
+
+    <item
+        android:id="@+id/action_delete_room"
+        android:title="Delete room" />
+
+</menu>
